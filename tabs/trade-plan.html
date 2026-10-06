@@ -1,0 +1,290 @@
+<!-- ── Full-width High Conviction Signals & Trade Plan ───── -->
+<div class="section" style="margin-bottom:20px;">
+<div class="high-score-box" style="width:100%;">
+<h3>&#9733; High Conviction Signals &nbsp;(6 Active &bull; Total Score &gt; 9.0)</h3>
+<table id="highScoreTable">
+<thead><tr>
+  <th onclick="sortTable(this, 0)">Stock</th>
+  <th onclick="sortTable(this, 1)">Entry Date/Time</th>
+  <th onclick="sortTable(this, 2)">Entry Price</th>
+  <th onclick="sortTable(this, 3)" title="Target: BUY +2.0% | SELL -2.0%">Target</th>
+  <th onclick="sortTable(this, 4)" title="Volatility-adjusted Stop Loss (1.25x 15m ATR)">Stop Loss</th>
+  <th onclick="sortTable(this, 5)">Signal at Call</th>
+  <th onclick="sortTable(this, 6)" title="Score-A: Signal Conviction Score (5 to 10)">Score-A</th>
+  <th onclick="sortTable(this, 7)" title="Score-B: Percentile Stock Score (BUY: 1-10, SELL: 11 - Stock Score)">Score-B</th>
+  <th onclick="sortTable(this, 8)" title="Score-C: Percentile AI Quant Score (BUY: 1-10, SELL: 11 - Quant Score)">Score-C</th>
+  <th onclick="sortTable(this, 9)" title="Total Score = Score-A × Score-B × Score-C × NiftyScore / 1000 (Above 9.0)">Total Score</th>
+  <th onclick="sortTable(this, 10)">Signal Side</th>
+  <th onclick="sortTable(this, 11)">Current Price</th>
+  <th onclick="sortTable(this, 12)">Signal Change post Call</th>
+  <th onclick="sortTable(this, 13)">New Signal</th>
+  <th onclick="sortTable(this, 14)">Live Move %</th>
+  <th onclick="sortTable(this, 15)" title="AI Quantitative Prediction: Intraday & Swing Models (Score 0-100, Direction & Conviction)">AI Quantitative Prediction<br><span style="font-size:10px; font-weight:normal; color:#64748b;">(Intraday &amp; Swing)</span></th>
+</tr></thead>
+<tbody>
+
+        <tr>
+          <td><b>DIVISLAB</b></td>
+          <td>2026-10-06 12:47</td>
+          <td>₹9380.00</td>
+          <td style='font-weight:700; color:#15803d;' title='Target Price (2%): ₹9567.60'>₹9567.60 <span style='font-size:11px; font-weight:normal;'>(+2.0%)</span><br><span style='font-size:9.5px; padding:1px 5px; background:#dcfce7; color:#15803d; border-radius:3px; font-weight:700;'>50% Booked (1.5%)</span></td>
+          <td style='font-weight:700; color:#2563eb;' title='Trailing Stop Loss Active at Break-Even: ₹9380.00'>₹9380.00 <span style='font-size:9.5px; padding:1px 5px; background:#eff6ff; color:#1d4ed8; border-radius:3px; font-weight:700;'>BE Trailing Active</span></td>
+          <td class="signal-LONG">LONG</td>
+          <td><span class="score-badge score-high" title="Score-A (Via Signal): 10.0/10">10.0</span></td>
+          <td><span class="score-badge score-high" title="Score-B (Via Stock Score): 9.9/10">9.9</span></td>
+          <td><span class="score-badge score-high" title="Score-C (Via AI Quant): 10.0/10">10.0</span></td>
+          <td style="font-weight:bold; font-size:1.05em; color:#15803d;" title="Total Score = Score-A (10.0) × Score-B (9.9) × Score-C (10.0) × NiftyScore / 1000 = 9.90">9.90</td>
+          <td><span class="badge-buy">BUY</span></td>
+          <td style="font-weight:600;">₹9550.00</td>
+          <td><span class="change-no">NO</span></td>
+          <td class="signal-LONG">LONG</td>
+          <td style="font-weight:bold; color:#15803d;">+1.81%</td>
+          <td class="quant-hc-cell" onclick="openQuantModal('DIVISLAB')" style="cursor:pointer;" title="DIVISLAB AI Quantitative Prediction&#10;----------------------------------------&#10;⚡ INTRADAY: STRONG BUY (BUY: 84.0 | SELL: 2.0) | Conf: 86%&#10;Key: Breakout above Pivot R1 (Rs.9,318.5) | Trading near session highs (100% of range)&#10;----------------------------------------&#10;📅 SWING (1-15D): STRONG BUY (BUY: 84.2 | SELL: 17.2) | Conf: 98%&#10;Key: Strong structural technical posture (Tech: 100/100) | Multi-day price base above Floor Pivot&#10;Click to inspect deep dive">
+            <span style="display:none">84.00</span>
+            <div style="display:flex; flex-direction:column; gap:3px; min-width:145px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">⚡ Intra:</span>
+                <span class="quant-sig-pill sig-strong-buy" style="font-size:10px; padding:1px 6px;">84.0 STRONG BUY</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">86%</span>
+              </div>
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">📅 Swing:</span>
+                <span class="quant-sig-pill sig-strong-buy" style="font-size:10px; padding:1px 6px;">84.2 STRONG BUY</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">98%</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        
+        <tr>
+          <td><b>HAL</b></td>
+          <td>2026-10-06 11:16</td>
+          <td>₹4763.00</td>
+          <td style='font-weight:700; color:#15803d;' title='Target Price (2%): ₹4858.26'>₹4858.26 <span style='font-size:11px; font-weight:normal;'>(+2.0%)</span></td>
+          <td style='font-weight:700; color:#2563eb;' title='Trailing Stop Loss Active at Break-Even: ₹4763.00'>₹4763.00 <span style='font-size:9.5px; padding:1px 5px; background:#eff6ff; color:#1d4ed8; border-radius:3px; font-weight:700;'>BE Trailing Active</span></td>
+          <td class="signal-LONG">LONG</td>
+          <td><span class="score-badge score-high" title="Score-A (Via Signal): 10.0/10">10.0</span></td>
+          <td><span class="score-badge score-high" title="Score-B (Via Stock Score): 9.4/10">9.4</span></td>
+          <td><span class="score-badge score-high" title="Score-C (Via AI Quant): 10.0/10">10.0</span></td>
+          <td style="font-weight:bold; font-size:1.05em; color:#15803d;" title="Total Score = Score-A (10.0) × Score-B (9.4) × Score-C (10.0) × NiftyScore / 1000 = 9.40">9.40</td>
+          <td><span class="badge-buy">BUY</span></td>
+          <td style="font-weight:600;">₹4816.00</td>
+          <td><span class="change-yes">YES</span></td>
+          <td class="signal-UNWIND">UNWIND</td>
+          <td style="font-weight:bold; color:#15803d;">+1.11%</td>
+          <td class="quant-hc-cell" onclick="openQuantModal('HAL')" style="cursor:pointer;" title="HAL AI Quantitative Prediction&#10;----------------------------------------&#10;⚡ INTRADAY: STRONG BUY (BUY: 70.0 | SELL: 17.0) | Conf: 79%&#10;Key: Breakout above Pivot R1 (Rs.4,659.0) | Trading near session highs (100% of range)&#10;----------------------------------------&#10;📅 SWING (1-15D): BUY (BUY: 57.4 | SELL: 25.7) | Conf: 70%&#10;Key: Multi-day price base above Floor Pivot | Superior Quality & Growth profile (Q: 90, G: 74)&#10;Click to inspect deep dive">
+            <span style="display:none">70.00</span>
+            <div style="display:flex; flex-direction:column; gap:3px; min-width:145px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">⚡ Intra:</span>
+                <span class="quant-sig-pill sig-strong-buy" style="font-size:10px; padding:1px 6px;">70.0 STRONG BUY</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">79%</span>
+              </div>
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">📅 Swing:</span>
+                <span class="quant-sig-pill sig-buy" style="font-size:10px; padding:1px 6px;">57.4 BUY</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">70%</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        
+        <tr>
+          <td><b>CAMS</b></td>
+          <td>2026-10-06 14:32</td>
+          <td>₹690.55</td>
+          <td style='font-weight:700; color:#15803d;' title='Target Price (2%): ₹704.36'>₹704.36 <span style='font-size:11px; font-weight:normal;'>(+2.0%)</span></td>
+          <td style='font-weight:700; color:#b91c1c;' title='Dynamic ATR Stop Loss (1.25x 15m ATR): ₹683.64'>₹683.64 <span style='font-size:11px; font-weight:normal;'>(-1.00%)</span></td>
+          <td class="signal-LONG">LONG</td>
+          <td><span class="score-badge score-high" title="Score-A (Via Signal): 10.0/10">10.0</span></td>
+          <td><span class="score-badge score-high" title="Score-B (Via Stock Score): 9.8/10">9.8</span></td>
+          <td><span class="score-badge score-high" title="Score-C (Via AI Quant): 9.3/10">9.3</span></td>
+          <td style="font-weight:bold; font-size:1.05em; color:#15803d;" title="Total Score = Score-A (10.0) × Score-B (9.8) × Score-C (9.3) × NiftyScore / 1000 = 9.11">9.11</td>
+          <td><span class="badge-buy">BUY</span></td>
+          <td style="font-weight:600;">₹693.90</td>
+          <td><span class="change-yes">YES</span></td>
+          <td class="signal-SHORT">SHORT</td>
+          <td style="font-weight:bold; color:#15803d;">+0.49%</td>
+          <td class="quant-hc-cell" onclick="openQuantModal('CAMS')" style="cursor:pointer;" title="CAMS AI Quantitative Prediction&#10;----------------------------------------&#10;⚡ INTRADAY: BUY (BUY: 61.0 | SELL: 20.0) | Conf: 71%&#10;Key: Breakout above Pivot R1 (Rs.687.2) | Trading near session highs (100% of range)&#10;----------------------------------------&#10;📅 SWING (1-15D): NEUTRAL (BUY: 52.6 | SELL: 40.2) | Conf: 52%&#10;Key: Multi-day price base above Floor Pivot | Superior Quality & Growth profile (Q: 100, G: 89)&#10;Click to inspect deep dive">
+            <span style="display:none">61.00</span>
+            <div style="display:flex; flex-direction:column; gap:3px; min-width:145px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">⚡ Intra:</span>
+                <span class="quant-sig-pill sig-buy" style="font-size:10px; padding:1px 6px;">61.0 BUY</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">71%</span>
+              </div>
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">📅 Swing:</span>
+                <span class="quant-sig-pill sig-neutral" style="font-size:10px; padding:1px 6px;">52.6 NEUTRAL</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">52%</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        
+        <tr>
+          <td><b>INDHOTEL</b></td>
+          <td>2026-10-06 10:24</td>
+          <td>₹729.10</td>
+          <td style='font-weight:700; color:#15803d;' title='Target Price (2%): ₹743.68'>₹743.68 <span style='font-size:11px; font-weight:normal;'>(+2.0%)</span></td>
+          <td style='font-weight:700; color:#b91c1c;' title='Dynamic ATR Stop Loss (1.25x 15m ATR): ₹721.81'>₹721.81 <span style='font-size:11px; font-weight:normal;'>(-1.00%)</span></td>
+          <td class="signal-LONG">LONG</td>
+          <td><span class="score-badge score-high" title="Score-A (Via Signal): 10.0/10">10.0</span></td>
+          <td><span class="score-badge score-high" title="Score-B (Via Stock Score): 9.7/10">9.7</span></td>
+          <td><span class="score-badge score-high" title="Score-C (Via AI Quant): 9.3/10">9.3</span></td>
+          <td style="font-weight:bold; font-size:1.05em; color:#15803d;" title="Total Score = Score-A (10.0) × Score-B (9.7) × Score-C (9.3) × NiftyScore / 1000 = 9.02">9.02</td>
+          <td><span class="badge-buy">BUY</span></td>
+          <td style="font-weight:600;">₹736.00</td>
+          <td><span class="change-yes">YES</span></td>
+          <td class="signal-UNWIND">UNWIND</td>
+          <td style="font-weight:bold; color:#15803d;">+0.95%</td>
+          <td class="quant-hc-cell" onclick="openQuantModal('INDHOTEL')" style="cursor:pointer;" title="INDHOTEL AI Quantitative Prediction&#10;----------------------------------------&#10;⚡ INTRADAY: BUY (BUY: 60.0 | SELL: 19.5) | Conf: 70%&#10;Key: Breakout above Pivot R1 (Rs.725.4) | Trading near session highs (100% of range)&#10;----------------------------------------&#10;📅 SWING (1-15D): BUY (BUY: 56.0 | SELL: 32.4) | Conf: 62%&#10;Key: Multi-day price base above Floor Pivot | Superior Quality & Growth profile (Q: 100, G: 100)&#10;Click to inspect deep dive">
+            <span style="display:none">60.00</span>
+            <div style="display:flex; flex-direction:column; gap:3px; min-width:145px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">⚡ Intra:</span>
+                <span class="quant-sig-pill sig-buy" style="font-size:10px; padding:1px 6px;">60.0 BUY</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">70%</span>
+              </div>
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">📅 Swing:</span>
+                <span class="quant-sig-pill sig-buy" style="font-size:10px; padding:1px 6px;">56.0 BUY</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">62%</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        
+        <tr>
+          <td><b>ICICIGI</b></td>
+          <td>2026-10-06 12:28</td>
+          <td>₹1603.10</td>
+          <td style='font-weight:700; color:#15803d;' title='Target Price (2%): ₹1635.16'>₹1635.16 <span style='font-size:11px; font-weight:normal;'>(+2.0%)</span></td>
+          <td style='font-weight:700; color:#b91c1c;' title='Dynamic ATR Stop Loss (1.25x 15m ATR): ₹1587.07'>₹1587.07 <span style='font-size:11px; font-weight:normal;'>(-1.00%)</span></td>
+          <td class="signal-LONG">LONG</td>
+          <td><span class="score-badge score-high" title="Score-A (Via Signal): 10.0/10">10.0</span></td>
+          <td><span class="score-badge score-high" title="Score-B (Via Stock Score): 9.4/10">9.4</span></td>
+          <td><span class="score-badge score-high" title="Score-C (Via AI Quant): 9.6/10">9.6</span></td>
+          <td style="font-weight:bold; font-size:1.05em; color:#15803d;" title="Total Score = Score-A (10.0) × Score-B (9.4) × Score-C (9.6) × NiftyScore / 1000 = 9.02">9.02</td>
+          <td><span class="badge-buy">BUY</span></td>
+          <td style="font-weight:600;">₹1598.30</td>
+          <td><span class="change-yes">YES</span></td>
+          <td class="signal-SHORT">SHORT</td>
+          <td style="font-weight:bold; color:#b91c1c;">-0.30%</td>
+          <td class="quant-hc-cell" onclick="openQuantModal('ICICIGI')" style="cursor:pointer;" title="ICICIGI AI Quantitative Prediction&#10;----------------------------------------&#10;⚡ INTRADAY: NEUTRAL (BUY: 53.5 | SELL: 25.0) | Conf: 60%&#10;Key: Breakout above Pivot R1 (Rs.1,593.6) | Trading near session highs (79% of range)&#10;----------------------------------------&#10;📅 SWING (1-15D): NEUTRAL (BUY: 48.7 | SELL: 37.5) | Conf: 44%&#10;Key: Multi-day price base above Floor Pivot | Superior Quality & Growth profile (Q: 74, G: 83)&#10;Click to inspect deep dive">
+            <span style="display:none">53.50</span>
+            <div style="display:flex; flex-direction:column; gap:3px; min-width:145px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">⚡ Intra:</span>
+                <span class="quant-sig-pill sig-neutral" style="font-size:10px; padding:1px 6px;">53.5 NEUTRAL</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">60%</span>
+              </div>
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">📅 Swing:</span>
+                <span class="quant-sig-pill sig-neutral" style="font-size:10px; padding:1px 6px;">48.7 NEUTRAL</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">44%</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        
+        <tr>
+          <td><b>PAGEIND</b></td>
+          <td>2026-10-06 23:13</td>
+          <td>₹37970.00</td>
+          <td style='font-weight:700; color:#15803d;' title='Target Price (2%): ₹38729.40'>₹38729.40 <span style='font-size:11px; font-weight:normal;'>(+2.0%)</span></td>
+          <td style='font-weight:700; color:#b91c1c;' title='Dynamic ATR Stop Loss (1.25x 15m ATR): ₹37590.30'>₹37590.30 <span style='font-size:11px; font-weight:normal;'>(-1.00%)</span></td>
+          <td class="signal-LONG">LONG</td>
+          <td><span class="score-badge score-high" title="Score-A (Via Signal): 10.0/10">10.0</span></td>
+          <td><span class="score-badge score-high" title="Score-B (Via Stock Score): 9.2/10">9.2</span></td>
+          <td><span class="score-badge score-high" title="Score-C (Via AI Quant): 9.8/10">9.8</span></td>
+          <td style="font-weight:bold; font-size:1.05em; color:#15803d;" title="Total Score = Score-A (10.0) × Score-B (9.2) × Score-C (9.8) × NiftyScore / 1000 = 9.02">9.02</td>
+          <td><span class="badge-buy">BUY</span></td>
+          <td style="font-weight:600;">₹37970.00</td>
+          <td><span class="change-no">NO</span></td>
+          <td class="signal-LONG">LONG</td>
+          <td style="font-weight:bold; color:#64748b;">+0.00%</td>
+          <td class="quant-hc-cell" onclick="openQuantModal('PAGEIND')" style="cursor:pointer;" title="PAGEIND AI Quantitative Prediction&#10;----------------------------------------&#10;⚡ INTRADAY: STRONG BUY (BUY: 81.5 | SELL: 2.0) | Conf: 86%&#10;Key: Breakout above Pivot R1 (Rs.37,486.7) | Trading near session highs (100% of range)&#10;----------------------------------------&#10;📅 SWING (1-15D): STRONG BUY (BUY: 82.9 | SELL: 15.3) | Conf: 98%&#10;Key: Strong structural technical posture (Tech: 100/100) | Multi-day price base above Floor Pivot&#10;Click to inspect deep dive">
+            <span style="display:none">81.50</span>
+            <div style="display:flex; flex-direction:column; gap:3px; min-width:145px;">
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">⚡ Intra:</span>
+                <span class="quant-sig-pill sig-strong-buy" style="font-size:10px; padding:1px 6px;">81.5 STRONG BUY</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">86%</span>
+              </div>
+              <div style="display:flex; align-items:center; justify-content:space-between; gap:4px;">
+                <span style="font-size:10px; font-weight:700; color:#475569;">📅 Swing:</span>
+                <span class="quant-sig-pill sig-strong-buy" style="font-size:10px; padding:1px 6px;">82.9 STRONG BUY</span>
+                <span style="font-size:9.5px; color:#64748b; font-weight:600;">98%</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        
+</tbody>
+</table>
+</div>
+</div>
+
+<h3 style="margin:24px 0 12px 0; color:#0f172a; font-size:16px; font-weight:800;">&#127919; Resolved Prediction Results (Target &amp; Stop Loss History)</h3>
+
+  <div class="scores-kpi-row" style="margin-bottom:16px;">
+    <div class="scores-kpi-card">
+      <div class="scores-kpi-title">Total Predictions</div>
+      <div class="scores-kpi-val">1 <span style="font-size:12px;color:#888;">Calls</span></div>
+      <div class="scores-kpi-sub">Target: 2% | Dynamic 1.25x ATR SL</div>
+    </div>
+    <div class="scores-kpi-card">
+      <div class="scores-kpi-title">Success Rate</div>
+      <div class="scores-kpi-val" style="color:#15803d;">100.0%</div>
+      <div class="scores-kpi-sub">1 Won / 1 Resolved</div>
+    </div>
+    <div class="scores-kpi-card">
+      <div class="scores-kpi-title">Target Achieved (&#10004;)</div>
+      <div class="scores-kpi-val" style="color:#15803d;">1 <span style="font-size:12px;color:#888;">Calls</span></div>
+      <div class="scores-kpi-sub">Full Target (2%) or 50% Booked (1.5%)</div>
+    </div>
+    <div class="scores-kpi-card">
+      <div class="scores-kpi-title">Stop Loss Hit (&#10008;)</div>
+      <div class="scores-kpi-val" style="color:#b91c1c;">0 <span style="font-size:12px;color:#888;">Calls</span></div>
+      <div class="scores-kpi-sub">ATR SL Hit (0 at Break-Even)</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <table id="predictionTable">
+      <thead>
+        <tr>
+          <th onclick="sortTable(this, 0)">Stock</th>
+          <th onclick="sortTable(this, 1)">Signal Side</th>
+          <th onclick="sortTable(this, 2)">Signal at Call</th>
+          <th onclick="sortTable(this, 3)" title="Combined Score: Stock Score (Percentile) &times; Final Score">Combined Score</th>
+          <th onclick="sortTable(this, 4)">Entry Date/Time</th>
+          <th onclick="sortTable(this, 5)">Entry Price</th>
+          <th onclick="sortTable(this, 6)" title="Target: BUY +2.0% | SELL -2.0%">Target</th>
+          <th onclick="sortTable(this, 7)" title="Volatility-adjusted Stop Loss (1.25x 15m ATR)">Stop Loss</th>
+          <th onclick="sortTable(this, 8)">Trigger Price</th>
+          <th onclick="sortTable(this, 9)">Move %</th>
+          <th onclick="sortTable(this, 10)">Prediction Result</th>
+          <th onclick="sortTable(this, 11)">Triggered Date/Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td><b>RADICO</b></td>
+          <td><span class="badge-buy">BUY</span></td>
+          <td class="signal-LONG">LONG</td>
+          <td><span class='badge-stk badge-stk-hi' style='font-size:12px; font-weight:700;'>9.1</span></td>
+          <td>2026-10-06 09:33</td>
+          <td>₹4350.80</td>
+          <td style='font-weight:700; color:#15803d;' title='Target Price (2%): ₹4437.82'>₹4437.82 <span style='font-size:11px; font-weight:normal;'>(+2.0%)</span></td>
+          <td style='font-weight:700; color:#b91c1c;' title='Dynamic ATR Stop Loss: ₹4307.29'>₹4307.29 <span style='font-size:11px; font-weight:normal;'>(-1.00%)</span></td>
+          <td>₹4441.20</td>
+          <td style="font-weight:bold; color:#15803d;">+2.08%</td>
+          <td><span class="pred-success">&#10004; SUCCESS</span></td>
+          <td>2026-10-06 12:45</td>
+        </tr>
+        
+      </tbody>
+    </table>
